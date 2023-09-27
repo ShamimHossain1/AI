@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI HUB</title>
+  <script src="https://kit.fontawesome.com/4c0141a6a6.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+  <header class="text-center pt-12">
+    <h2 class="font-semibold text-4xl mb-7">AI Universe Hub</h2>
+    <button class="btn btn-primary bg-[#EB5757] border-0 font-semibold text-lg text-white">Sort By Date</button>
+  </header>
+
+  <main>
+    <!-- You can open the modal using ID.showModal() method -->
+    <dialog id="my_modal_4" class="modal">
+      <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+        <div id="details-container" class="flex flex-col justify-around gap-10 lg:flex-row ">
+                 
+        </div>
+        <div class="modal-action">
+          <button class="btn">Close</button>
+        </div>
+      </form>
+    </dialog>
+    <!-- cards -->
+    <div id="ai-container" class="grid grid-cols-1 md:grid-cols-2 items-center lg:grid-cols-3 px-5 gap-5 space-y-5">
+       
+    </div>
+    <div class="text-center mt-10">
+      <button class="btn bg-[#EB5757] text-white ">See More</button>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
